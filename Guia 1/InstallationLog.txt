@@ -1,0 +1,630 @@
+************************************* Invoked: lun. abr. 24 23:21:17 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=gnu++17, -m64, -Wp,-v, -E, -dM, -x, c++, nul
+[9] Operations sanity check succeeded.
+[16] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[16] Found 0 cached items.
+[16] Language: es-MX
+[16] Script file does not exist.
+************************************* Invoked: lun. abr. 24 23:21:17 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=gnu++17, -m32, -Wp,-v, -E, -dM, -x, c++, nul
+[3] Operations sanity check succeeded.
+[10] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[10] Found 0 cached items.
+[11] Language: es-MX
+[11] Script file does not exist.
+************************************* Invoked: lun. abr. 24 23:21:18 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=gnu++17, -Wp,-v, -E, -dM, -x, c++, nul
+[2] Operations sanity check succeeded.
+[9] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[9] Found 0 cached items.
+[9] Language: es-MX
+[9] Script file does not exist.
+************************************* Invoked: lun. abr. 24 23:21:21 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=c17, -m64, -Wp,-v, -E, -dM, -x, c, nul
+[6] Operations sanity check succeeded.
+[13] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[13] Found 0 cached items.
+[13] Language: es-MX
+[13] Script file does not exist.
+************************************* Invoked: lun. abr. 24 23:21:21 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=c17, -m32, -Wp,-v, -E, -dM, -x, c, nul
+[3] Operations sanity check succeeded.
+[13] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[13] Found 0 cached items.
+[14] Language: es-MX
+[14] Script file does not exist.
+************************************* Invoked: lun. abr. 24 23:21:21 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=c17, -Wp,-v, -E, -dM, -x, c, nul
+[3] Operations sanity check succeeded.
+[9] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[9] Found 0 cached items.
+[9] Language: es-MX
+[9] Script file does not exist.
+************************************* Invoked: jue. abr. 27 22:34:56 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=gnu++17, -m64, -Wp,-v, -E, -dM, -x, c++, nul
+[5] Operations sanity check succeeded.
+[13] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[13] Found 0 cached items.
+[13] Language: es-MX
+[13] Script file does not exist.
+************************************* Invoked: jue. abr. 27 22:34:56 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=gnu++17, -m32, -Wp,-v, -E, -dM, -x, c++, nul
+[3] Operations sanity check succeeded.
+[9] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[9] Found 0 cached items.
+[9] Language: es-MX
+[10] Script file does not exist.
+************************************* Invoked: jue. abr. 27 22:34:56 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=gnu++17, -Wp,-v, -E, -dM, -x, c++, nul
+[3] Operations sanity check succeeded.
+[11] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[12] Found 0 cached items.
+[13] Language: es-MX
+[13] Script file does not exist.
+************************************* Invoked: jue. abr. 27 22:35:02 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=c17, -m64, -Wp,-v, -E, -dM, -x, c, nul
+[4] Operations sanity check succeeded.
+[11] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[11] Found 0 cached items.
+[11] Language: es-MX
+[11] Script file does not exist.
+************************************* Invoked: jue. abr. 27 22:35:02 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=c17, -m32, -Wp,-v, -E, -dM, -x, c, nul
+[3] Operations sanity check succeeded.
+[10] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[10] Found 0 cached items.
+[10] Language: es-MX
+[10] Script file does not exist.
+************************************* Invoked: jue. abr. 27 22:35:02 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=c17, -Wp,-v, -E, -dM, -x, c, nul
+[3] Operations sanity check succeeded.
+[10] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[10] Found 0 cached items.
+[10] Language: es-MX
+[10] Script file does not exist.
+************************************* Invoked: vie. abr. 28 14:56:48 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=gnu++17, -m64, -Wp,-v, -E, -dM, -x, c++, nul
+[5] Operations sanity check succeeded.
+[16] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[16] Found 0 cached items.
+[17] Language: es-MX
+[17] Script file does not exist.
+************************************* Invoked: vie. abr. 28 14:56:48 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=gnu++17, -m32, -Wp,-v, -E, -dM, -x, c++, nul
+[5] Operations sanity check succeeded.
+[15] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[15] Found 0 cached items.
+[15] Language: es-MX
+[15] Script file does not exist.
+************************************* Invoked: vie. abr. 28 14:56:48 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=gnu++17, -Wp,-v, -E, -dM, -x, c++, nul
+[3] Operations sanity check succeeded.
+[9] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[9] Found 0 cached items.
+[9] Language: es-MX
+[10] Script file does not exist.
+************************************* Invoked: vie. abr. 28 14:56:52 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=c17, -m64, -Wp,-v, -E, -dM, -x, c, nul
+[5] Operations sanity check succeeded.
+[13] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[13] Found 0 cached items.
+[13] Language: es-MX
+[13] Script file does not exist.
+************************************* Invoked: vie. abr. 28 14:56:52 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=c17, -m32, -Wp,-v, -E, -dM, -x, c, nul
+[3] Operations sanity check succeeded.
+[11] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[11] Found 0 cached items.
+[11] Language: es-MX
+[11] Script file does not exist.
+************************************* Invoked: vie. abr. 28 14:56:52 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=c17, -Wp,-v, -E, -dM, -x, c, nul
+[4] Operations sanity check succeeded.
+[13] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[13] Found 0 cached items.
+[13] Language: es-MX
+[13] Script file does not exist.
+************************************* Invoked: vie. may. 5 10:24:12 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=gnu++17, -m64, -Wp,-v, -E, -dM, -x, c++, nul
+[3] Operations sanity check succeeded.
+[10] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[10] Found 0 cached items.
+[10] Language: es-MX
+[10] Script file does not exist.
+************************************* Invoked: vie. may. 5 10:24:13 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=gnu++17, -m32, -Wp,-v, -E, -dM, -x, c++, nul
+[2] Operations sanity check succeeded.
+[8] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[8] Found 0 cached items.
+[9] Language: es-MX
+[9] Script file does not exist.
+************************************* Invoked: vie. may. 5 10:24:13 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=gnu++17, -Wp,-v, -E, -dM, -x, c++, nul
+[2] Operations sanity check succeeded.
+[8] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[8] Found 0 cached items.
+[8] Language: es-MX
+[9] Script file does not exist.
+************************************* Invoked: vie. may. 5 10:24:16 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=c17, -m64, -Wp,-v, -E, -dM, -x, c, nul
+[5] Operations sanity check succeeded.
+[11] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[11] Found 0 cached items.
+[11] Language: es-MX
+[11] Script file does not exist.
+************************************* Invoked: vie. may. 5 10:24:16 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=c17, -m32, -Wp,-v, -E, -dM, -x, c, nul
+[2] Operations sanity check succeeded.
+[9] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[9] Found 0 cached items.
+[9] Language: es-MX
+[9] Script file does not exist.
+************************************* Invoked: vie. may. 5 10:24:16 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=c17, -Wp,-v, -E, -dM, -x, c, nul
+[2] Operations sanity check succeeded.
+[9] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[9] Found 0 cached items.
+[9] Language: es-MX
+[9] Script file does not exist.
+************************************* Invoked: vie. may. 5 14:22:41 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=gnu++17, -m64, -Wp,-v, -E, -dM, -x, c++, nul
+[6] Operations sanity check succeeded.
+[13] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[13] Found 0 cached items.
+[13] Language: es-MX
+[13] Script file does not exist.
+************************************* Invoked: vie. may. 5 14:22:42 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=gnu++17, -m32, -Wp,-v, -E, -dM, -x, c++, nul
+[3] Operations sanity check succeeded.
+[14] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[14] Found 0 cached items.
+[14] Language: es-MX
+[14] Script file does not exist.
+************************************* Invoked: vie. may. 5 14:22:42 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=gnu++17, -Wp,-v, -E, -dM, -x, c++, nul
+[3] Operations sanity check succeeded.
+[12] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[12] Found 0 cached items.
+[12] Language: es-MX
+[12] Script file does not exist.
+************************************* Invoked: vie. may. 5 14:22:57 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=c17, -m64, -Wp,-v, -E, -dM, -x, c, nul
+[5] Operations sanity check succeeded.
+[12] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[12] Found 0 cached items.
+[12] Language: es-MX
+[12] Script file does not exist.
+************************************* Invoked: vie. may. 5 14:22:57 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=c17, -m32, -Wp,-v, -E, -dM, -x, c, nul
+[3] Operations sanity check succeeded.
+[10] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[11] Found 0 cached items.
+[11] Language: es-MX
+[11] Script file does not exist.
+************************************* Invoked: vie. may. 5 14:22:58 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=c17, -Wp,-v, -E, -dM, -x, c, nul
+[4] Operations sanity check succeeded.
+[11] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[11] Found 0 cached items.
+[11] Language: es-MX
+[11] Script file does not exist.
+************************************* Invoked: vie. may. 5 17:22:32 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=gnu++17, -m64, -Wp,-v, -E, -dM, -x, c++, nul
+[6] Operations sanity check succeeded.
+[13] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[13] Found 0 cached items.
+[13] Language: es-MX
+[13] Script file does not exist.
+************************************* Invoked: vie. may. 5 17:22:33 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=gnu++17, -m32, -Wp,-v, -E, -dM, -x, c++, nul
+[3] Operations sanity check succeeded.
+[10] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[10] Found 0 cached items.
+[10] Language: es-MX
+[10] Script file does not exist.
+************************************* Invoked: vie. may. 5 17:22:33 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=gnu++17, -Wp,-v, -E, -dM, -x, c++, nul
+[3] Operations sanity check succeeded.
+[9] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[10] Found 0 cached items.
+[10] Language: es-MX
+[10] Script file does not exist.
+************************************* Invoked: vie. may. 5 17:22:36 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=c17, -m64, -Wp,-v, -E, -dM, -x, c, nul
+[8] Operations sanity check succeeded.
+[16] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[16] Found 0 cached items.
+[16] Language: es-MX
+[16] Script file does not exist.
+************************************* Invoked: vie. may. 5 17:22:36 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=c17, -m32, -Wp,-v, -E, -dM, -x, c, nul
+[2] Operations sanity check succeeded.
+[9] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[9] Found 0 cached items.
+[9] Language: es-MX
+[9] Script file does not exist.
+************************************* Invoked: vie. may. 5 17:22:36 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=c17, -Wp,-v, -E, -dM, -x, c, nul
+[3] Operations sanity check succeeded.
+[10] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[10] Found 0 cached items.
+[10] Language: es-MX
+[10] Script file does not exist.
+************************************* Invoked: vie. may. 5 18:34:02 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=gnu++17, -m64, -Wp,-v, -E, -dM, -x, c++, nul
+[4] Operations sanity check succeeded.
+[11] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[11] Found 0 cached items.
+[11] Language: es-MX
+[11] Script file does not exist.
+************************************* Invoked: vie. may. 5 18:34:02 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=gnu++17, -m32, -Wp,-v, -E, -dM, -x, c++, nul
+[2] Operations sanity check succeeded.
+[9] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[9] Found 0 cached items.
+[9] Language: es-MX
+[9] Script file does not exist.
+************************************* Invoked: vie. may. 5 18:34:02 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=gnu++17, -Wp,-v, -E, -dM, -x, c++, nul
+[2] Operations sanity check succeeded.
+[9] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[9] Found 0 cached items.
+[9] Language: es-MX
+[9] Script file does not exist.
+************************************* Invoked: vie. may. 5 18:34:05 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=c17, -m64, -Wp,-v, -E, -dM, -x, c, nul
+[8] Operations sanity check succeeded.
+[14] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[14] Found 0 cached items.
+[14] Language: es-MX
+[14] Script file does not exist.
+************************************* Invoked: vie. may. 5 18:34:05 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=c17, -m32, -Wp,-v, -E, -dM, -x, c, nul
+[2] Operations sanity check succeeded.
+[9] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[9] Found 0 cached items.
+[9] Language: es-MX
+[9] Script file does not exist.
+************************************* Invoked: vie. may. 5 18:34:05 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=c17, -Wp,-v, -E, -dM, -x, c, nul
+[2] Operations sanity check succeeded.
+[9] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[9] Found 0 cached items.
+[9] Language: es-MX
+[9] Script file does not exist.
+************************************* Invoked: vie. may. 5 18:35:59 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=gnu++17, -m64, -Wp,-v, -E, -dM, -x, c++, nul
+[4] Operations sanity check succeeded.
+[11] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[11] Found 0 cached items.
+[11] Language: es-MX
+[11] Script file does not exist.
+************************************* Invoked: vie. may. 5 18:35:59 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=gnu++17, -m32, -Wp,-v, -E, -dM, -x, c++, nul
+[2] Operations sanity check succeeded.
+[9] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[9] Found 0 cached items.
+[9] Language: es-MX
+[9] Script file does not exist.
+************************************* Invoked: vie. may. 5 18:35:59 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=gnu++17, -Wp,-v, -E, -dM, -x, c++, nul
+[3] Operations sanity check succeeded.
+[10] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[10] Found 0 cached items.
+[10] Language: es-MX
+[11] Script file does not exist.
+************************************* Invoked: vie. may. 5 18:36:03 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=c17, -m64, -Wp,-v, -E, -dM, -x, c, nul
+[4] Operations sanity check succeeded.
+[12] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[12] Found 0 cached items.
+[12] Language: es-MX
+[12] Script file does not exist.
+************************************* Invoked: vie. may. 5 18:36:03 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=c17, -m32, -Wp,-v, -E, -dM, -x, c, nul
+[3] Operations sanity check succeeded.
+[13] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[13] Found 0 cached items.
+[13] Language: es-MX
+[13] Script file does not exist.
+************************************* Invoked: vie. may. 5 18:36:03 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=c17, -Wp,-v, -E, -dM, -x, c, nul
+[3] Operations sanity check succeeded.
+[10] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[10] Found 0 cached items.
+[10] Language: es-MX
+[10] Script file does not exist.
+************************************* Invoked: vie. may. 5 18:37:17 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=gnu++17, -m64, -Wp,-v, -E, -dM, -x, c++, nul
+[5] Operations sanity check succeeded.
+[11] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[11] Found 0 cached items.
+[11] Language: es-MX
+[11] Script file does not exist.
+************************************* Invoked: vie. may. 5 18:37:17 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=gnu++17, -m32, -Wp,-v, -E, -dM, -x, c++, nul
+[2] Operations sanity check succeeded.
+[8] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[8] Found 0 cached items.
+[8] Language: es-MX
+[8] Script file does not exist.
+************************************* Invoked: vie. may. 5 18:37:17 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=gnu++17, -Wp,-v, -E, -dM, -x, c++, nul
+[2] Operations sanity check succeeded.
+[9] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[9] Found 0 cached items.
+[9] Language: es-MX
+[9] Script file does not exist.
+************************************* Invoked: vie. may. 5 18:37:20 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=c17, -m64, -Wp,-v, -E, -dM, -x, c, nul
+[7] Operations sanity check succeeded.
+[13] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[13] Found 0 cached items.
+[13] Language: es-MX
+[13] Script file does not exist.
+************************************* Invoked: vie. may. 5 18:37:20 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=c17, -m32, -Wp,-v, -E, -dM, -x, c, nul
+[2] Operations sanity check succeeded.
+[8] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[8] Found 0 cached items.
+[8] Language: es-MX
+[8] Script file does not exist.
+************************************* Invoked: vie. may. 5 18:37:20 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=c17, -Wp,-v, -E, -dM, -x, c, nul
+[2] Operations sanity check succeeded.
+[8] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[8] Found 0 cached items.
+[8] Language: es-MX
+[8] Script file does not exist.
+************************************* Invoked: mar. may. 9 22:17:44 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=gnu++17, -m64, -Wp,-v, -E, -dM, -x, c++, nul
+[6] Operations sanity check succeeded.
+[13] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[13] Found 0 cached items.
+[13] Language: es-MX
+[14] Script file does not exist.
+************************************* Invoked: mar. may. 9 22:17:45 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=gnu++17, -m32, -Wp,-v, -E, -dM, -x, c++, nul
+[3] Operations sanity check succeeded.
+[10] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[10] Found 0 cached items.
+[10] Language: es-MX
+[10] Script file does not exist.
+************************************* Invoked: mar. may. 9 22:17:45 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=gnu++17, -Wp,-v, -E, -dM, -x, c++, nul
+[5] Operations sanity check succeeded.
+[14] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[14] Found 0 cached items.
+[14] Language: es-MX
+[14] Script file does not exist.
+************************************* Invoked: mar. may. 9 22:20:05 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=c17, -m64, -Wp,-v, -E, -dM, -x, c, nul
+[8] Operations sanity check succeeded.
+[17] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[17] Found 0 cached items.
+[17] Language: es-MX
+[17] Script file does not exist.
+************************************* Invoked: mar. may. 9 22:20:05 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=c17, -m32, -Wp,-v, -E, -dM, -x, c, nul
+[4] Operations sanity check succeeded.
+[11] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[11] Found 0 cached items.
+[11] Language: es-MX
+[11] Script file does not exist.
+************************************* Invoked: mar. may. 9 22:20:06 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=c17, -Wp,-v, -E, -dM, -x, c, nul
+[2] Operations sanity check succeeded.
+[10] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[10] Found 0 cached items.
+[10] Language: es-MX
+[10] Script file does not exist.
+************************************* Invoked: jue. may. 11 20:31:38 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=gnu++17, -m64, -Wp,-v, -E, -dM, -x, c++, nul
+[4] Operations sanity check succeeded.
+[13] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[13] Found 0 cached items.
+[13] Language: es-MX
+[13] Script file does not exist.
+************************************* Invoked: jue. may. 11 20:31:38 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=gnu++17, -m32, -Wp,-v, -E, -dM, -x, c++, nul
+[2] Operations sanity check succeeded.
+[10] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[10] Found 0 cached items.
+[10] Language: es-MX
+[10] Script file does not exist.
+************************************* Invoked: jue. may. 11 20:31:38 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=gnu++17, -Wp,-v, -E, -dM, -x, c++, nul
+[3] Operations sanity check succeeded.
+[13] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[13] Found 0 cached items.
+[13] Language: es-MX
+[13] Script file does not exist.
+************************************* Invoked: jue. may. 11 20:31:42 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=c17, -m64, -Wp,-v, -E, -dM, -x, c, nul
+[6] Operations sanity check succeeded.
+[14] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[14] Found 0 cached items.
+[14] Language: es-MX
+[14] Script file does not exist.
+************************************* Invoked: jue. may. 11 20:31:42 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=c17, -m32, -Wp,-v, -E, -dM, -x, c, nul
+[5] Operations sanity check succeeded.
+[12] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[12] Found 0 cached items.
+[12] Language: es-MX
+[12] Script file does not exist.
+************************************* Invoked: jue. may. 11 20:31:42 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=c17, -Wp,-v, -E, -dM, -x, c, nul
+[4] Operations sanity check succeeded.
+[11] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[11] Found 0 cached items.
+[11] Language: es-MX
+[11] Script file does not exist.
+************************************* Invoked: jue. may. 11 21:40:43 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=gnu++17, -m64, -Wp,-v, -E, -dM, -x, c++, nul
+[6] Operations sanity check succeeded.
+[13] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[13] Found 0 cached items.
+[14] Language: es-MX
+[14] Script file does not exist.
+************************************* Invoked: jue. may. 11 21:40:43 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=gnu++17, -m32, -Wp,-v, -E, -dM, -x, c++, nul
+[2] Operations sanity check succeeded.
+[10] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[10] Found 0 cached items.
+[10] Language: es-MX
+[10] Script file does not exist.
+************************************* Invoked: jue. may. 11 21:40:43 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=gnu++17, -Wp,-v, -E, -dM, -x, c++, nul
+[2] Operations sanity check succeeded.
+[11] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[11] Found 0 cached items.
+[11] Language: es-MX
+[12] Script file does not exist.
+************************************* Invoked: jue. may. 11 21:40:47 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=c17, -m64, -Wp,-v, -E, -dM, -x, c, nul
+[8] Operations sanity check succeeded.
+[17] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[17] Found 0 cached items.
+[17] Language: es-MX
+[17] Script file does not exist.
+************************************* Invoked: jue. may. 11 21:40:47 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=c17, -m32, -Wp,-v, -E, -dM, -x, c, nul
+[2] Operations sanity check succeeded.
+[9] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[9] Found 0 cached items.
+[9] Language: es-MX
+[9] Script file does not exist.
+************************************* Invoked: jue. may. 11 21:40:47 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=c17, -Wp,-v, -E, -dM, -x, c, nul
+[2] Operations sanity check succeeded.
+[9] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[9] Found 0 cached items.
+[10] Language: es-MX
+[10] Script file does not exist.
+************************************* Invoked: vie. may. 12 09:01:50 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=gnu++17, -m64, -Wp,-v, -E, -dM, -x, c++, nul
+[4] Operations sanity check succeeded.
+[12] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[12] Found 0 cached items.
+[12] Language: es-MX
+[12] Script file does not exist.
+************************************* Invoked: vie. may. 12 09:01:50 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=gnu++17, -m32, -Wp,-v, -E, -dM, -x, c++, nul
+[3] Operations sanity check succeeded.
+[11] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[11] Found 0 cached items.
+[11] Language: es-MX
+[11] Script file does not exist.
+************************************* Invoked: vie. may. 12 09:01:50 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=gnu++17, -Wp,-v, -E, -dM, -x, c++, nul
+[4] Operations sanity check succeeded.
+[11] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[11] Found 0 cached items.
+[11] Language: es-MX
+[11] Script file does not exist.
+************************************* Invoked: vie. may. 12 09:01:55 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=c17, -m64, -Wp,-v, -E, -dM, -x, c, nul
+[10] Operations sanity check succeeded.
+[17] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[17] Found 0 cached items.
+[17] Language: es-MX
+[17] Script file does not exist.
+************************************* Invoked: vie. may. 12 09:01:55 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=c17, -m32, -Wp,-v, -E, -dM, -x, c, nul
+[5] Operations sanity check succeeded.
+[13] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[13] Found 0 cached items.
+[13] Language: es-MX
+[13] Script file does not exist.
+************************************* Invoked: vie. may. 12 09:01:55 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=c17, -Wp,-v, -E, -dM, -x, c, nul
+[3] Operations sanity check succeeded.
+[9] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[9] Found 0 cached items.
+[9] Language: es-MX
+[9] Script file does not exist.
+************************************* Invoked: vie. may. 19 09:20:08 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=gnu++17, -m64, -Wp,-v, -E, -dM, -x, c++, nul
+[4] Operations sanity check succeeded.
+[12] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[12] Found 0 cached items.
+[12] Language: es-MX
+[12] Script file does not exist.
+************************************* Invoked: vie. may. 19 09:20:08 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=gnu++17, -m32, -Wp,-v, -E, -dM, -x, c++, nul
+[3] Operations sanity check succeeded.
+[9] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[9] Found 0 cached items.
+[9] Language: es-MX
+[9] Script file does not exist.
+************************************* Invoked: vie. may. 19 09:20:09 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=gnu++17, -Wp,-v, -E, -dM, -x, c++, nul
+[4] Operations sanity check succeeded.
+[10] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[10] Found 0 cached items.
+[10] Language: es-MX
+[10] Script file does not exist.
+************************************* Invoked: vie. may. 19 09:20:13 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=c17, -m64, -Wp,-v, -E, -dM, -x, c, nul
+[7] Operations sanity check succeeded.
+[15] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[15] Found 0 cached items.
+[15] Language: es-MX
+[15] Script file does not exist.
+************************************* Invoked: vie. may. 19 09:20:13 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=c17, -m32, -Wp,-v, -E, -dM, -x, c, nul
+[3] Operations sanity check succeeded.
+[8] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[8] Found 0 cached items.
+[8] Language: es-MX
+[8] Script file does not exist.
+************************************* Invoked: vie. may. 19 09:20:13 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=c17, -Wp,-v, -E, -dM, -x, c, nul
+[4] Operations sanity check succeeded.
+[10] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[10] Found 0 cached items.
+[10] Language: es-MX
+[11] Script file does not exist.
+************************************* Invoked: vie. may. 19 15:20:49 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=gnu++17, -m64, -Wp,-v, -E, -dM, -x, c++, nul
+[11] Operations sanity check succeeded.
+[19] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[19] Found 0 cached items.
+[20] Language: es-MX
+[20] Script file does not exist.
+************************************* Invoked: vie. may. 19 15:20:49 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=gnu++17, -m32, -Wp,-v, -E, -dM, -x, c++, nul
+[4] Operations sanity check succeeded.
+[11] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[11] Found 0 cached items.
+[11] Language: es-MX
+[11] Script file does not exist.
+************************************* Invoked: vie. may. 19 15:20:49 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=gnu++17, -Wp,-v, -E, -dM, -x, c++, nul
+[3] Operations sanity check succeeded.
+[10] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[10] Found 0 cached items.
+[10] Language: es-MX
+[10] Script file does not exist.
+************************************* Invoked: vie. may. 19 15:23:17 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=c17, -m64, -Wp,-v, -E, -dM, -x, c, nul
+[9] Operations sanity check succeeded.
+[16] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[16] Found 0 cached items.
+[16] Language: es-MX
+[16] Script file does not exist.
+************************************* Invoked: vie. may. 19 15:23:18 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=c17, -m32, -Wp,-v, -E, -dM, -x, c, nul
+[3] Operations sanity check succeeded.
+[10] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[10] Found 0 cached items.
+[10] Language: es-MX
+[10] Script file does not exist.
+************************************* Invoked: vie. may. 19 15:23:18 2023
+[0] Arguments: c:\Users\ASUS\Downloads\msys2-x86_64-20230318.exe, -std=c17, -Wp,-v, -E, -dM, -x, c, nul
+[3] Operations sanity check succeeded.
+[10] Using metadata cache from "C:/Users/ASUS/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[10] Found 0 cached items.
+[10] Language: es-MX
+[10] Script file does not exist.
