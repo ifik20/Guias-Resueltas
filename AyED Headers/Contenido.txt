@@ -1,0 +1,9 @@
+listasutil.hpp	Tiene la declaración de nodoy la función mostrar
+listas.hpp	Tiene las funciones de pop, push y agregar
+Nota: si se usan los anteriores listasutil debe ser incluído antes que listas
+listascomp.hpp	Es la combinación de los dos anteriores, permitiendo incluir un único archivo (por practicidad)
+-----
+listasorde.hpp	Tiene las funciones de listas ordenadas (buscar, borrar, extraer e insertar)
+listasordUni.hpp	Tiene la función de insertar_unico
+listasordc.hpp	Tiene en un solo archivo las funciones de los dos anteriores
+
