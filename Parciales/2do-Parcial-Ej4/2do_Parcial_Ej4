@@ -1,0 +1,179 @@
+#include <iostream>
+#include <fstream>
+#include "rwstring.hpp"
+#include "listascomp.hpp"
+#include "listasordc.hpp"
+
+using namespace std; 
+
+//punto 1
+struct registro{
+	string pais;
+	string empresa;
+	string tipo; 
+	float energia; 
+	float costo;
+}; 
+
+struct combi2{
+	string pais; 
+	float energia; 
+};
+
+struct combinacion{
+	string empresa; 
+	string tipo; 
+	float tenergia = 0; 
+	float tcosto = 0; 
+	float promedio;
+	Nodo<combi2>* listapromedio = nullptr;  
+};
+
+const int dimpais {11};
+const int dimempresa {10};
+const int dimtipo {12};
+const float maxenergia {18.1}; 
+
+//punto 2
+fstream& operator >> (fstream& fs, registro& ord)
+{
+	ord.pais = readstring(fs, dimpais); 
+	ord.empresa = readstring(fs, dimempresa); 
+	ord.tipo = readstring(fs, dimtipo); 
+	fs.read(reinterpret_cast<char*>(&ord.energia), sizeof(ord.energia)); 
+	fs.read(reinterpret_cast<char*>(&ord.costo), sizeof(ord.costo)); 
+	return fs;  
+}
+
+ostream& operator << (ostream& os, const combinacion& ord)
+{
+	os << ord.empresa << "\t" << ord.tipo << "\t" << ord.tenergia << "\t" << ord.tcosto << "\t" << ord.promedio;
+	return os; 
+}
+
+ostream& operator << (ostream& os, const combi2& ord)
+{
+	os << ord.pais << "\t" << ord.energia; 
+	return os; 
+}
+
+//punto 3
+int ordenar(combinacion a, combinacion b)
+{
+	if(a.empresa == b.empresa)
+	{
+		return b.tipo.compare(a.tipo); 
+	}else
+	{
+		return a.empresa > b.empresa ? 1 : -1; 
+	}
+}
+
+//punto 3
+int ordenarprom(combi2 a , combi2 b)
+{
+	return a.pais.compare(b.pais); 
+}
+
+//punto 4
+void filtro(Nodo<combinacion>* list)
+{
+		if(list->sig != nullptr){
+			if(list->dato.promedio > list->sig->dato.promedio)
+			{
+				cout<<list->dato.promedio<<" es mayor a "<<list->sig->dato.promedio<<endl; 
+			}else
+			{
+				cout<<list->dato.promedio<<" es menor a "<<list->sig->dato.promedio<<endl; 
+			}
+		} 
+}
+
+//punto 4
+void listar(Nodo<combi2>* listas)
+{
+	while(listas != nullptr)
+	{
+		if(listas->dato.energia < maxenergia)
+		{
+			cout<<listas->dato<<endl; 
+		}
+	listas = listas->sig; 
+	}
+}
+
+int main(){
+	//punto 1
+	fstream archivo; 
+	archivo.open("Datos.bin", ios :: in | ios :: binary); 
+	if(!archivo){
+		cout<<"ERROR: No se puede ejecutar el archivo"<<endl; 
+		return EXIT_FAILURE; 
+	}
+
+	registro reg;
+	combi2 com2; 
+	combinacion combi; 
+	Nodo<combinacion>* lista = nullptr; 
+	Nodo<combinacion>* pnodo; 
+
+	//punto 2
+	while(archivo >> reg)
+	{
+		combi.empresa = reg.empresa; 
+		combi.tipo = reg.tipo; 
+		pnodo = insertar_unico(combi, lista, ordenar);
+		pnodo->dato.tenergia += reg.energia; 
+		pnodo->dato.tcosto += reg.costo; 
+
+		com2.pais = reg.pais; 
+		com2.energia = reg.energia; 
+ 		insertar(com2, pnodo->dato.listapromedio, ordenarprom); 	
+	}
+	archivo.close(); 
+
+	pnodo = lista; 
+	while(pnodo != nullptr)
+	{
+		pnodo->dato.promedio = pnodo->dato.tcosto / pnodo->dato.tenergia; 
+		pnodo = pnodo->sig;
+	}
+	
+	//punto 3
+    const float minprom {55.4}; 
+    pnodo = lista; 
+	cout<<"Listado de combinacion tipo-empresa: "<<endl; 
+    while (pnodo != nullptr)
+    {
+        cout<<pnodo->dato<<endl; 
+        if (pnodo->dato.promedio > minprom)
+        { 
+			mostrar(pnodo->dato.listapromedio); 
+            cout<<endl; 
+        }
+        pnodo = pnodo->sig;   
+    }
+    
+	//punto 4
+	cout<<"Ingrese empresa y tipo: "; 
+	while(cin >> combi.empresa >> combi.tipo)
+	{ 
+		pnodo = buscar(combi, lista, ordenar);
+		if(pnodo != nullptr)
+		{
+			if(pnodo->sig == nullptr)
+			{
+				cout<<"No existe siguiente." <<endl;	 
+			}else
+			{
+				filtro(pnodo);
+			}
+		listar(pnodo->dato.listapromedio);
+		}else{
+			cout<<"No se encontraron datos para la combinacion "<<combi.empresa<<"-"<<combi.tipo<<endl;
+		}
+	cout<<"Ingrese empresa y tipo: ";
+	}
+
+return 0; 
+}

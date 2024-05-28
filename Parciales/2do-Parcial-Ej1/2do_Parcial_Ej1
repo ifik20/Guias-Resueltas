@@ -1,0 +1,124 @@
+#include <iostream>
+#include <fstream>
+#include "listasutil.hpp"
+#include "listas.hpp"
+#include "listasord.hpp"
+#include "listasordUni.hpp"
+#include "rwstring.hpp"
+
+using namespace std; 
+
+struct registro{
+	int id; 
+	string zona; 
+	string producto; 
+	int cantidad; 
+}; 
+
+struct pedidos{
+	string producto; 
+	int cantidad;
+};
+
+struct representante{
+	int id; 
+	string zona; 
+	int totalped = 0; 
+	int sumcant = 0;
+	Nodo<pedidos>* listaped = nullptr; 
+};
+
+const int dimzona {10};
+const int dimprod {15}; 
+ 
+fstream& operator >> (fstream& fs, registro& ord){
+	fs.read(reinterpret_cast<char*> (&ord.id), sizeof(ord.id)); 
+	ord.zona = readstring(fs, dimzona); 
+	ord.producto = readstring(fs, dimprod); 
+	fs.read(reinterpret_cast<char*> (&ord.cantidad), sizeof(ord.cantidad)); 
+	return fs; 
+}
+
+ostream& operator << (ostream& os, const representante& ord){
+	os << ord.id << "\t" << ord.zona << "\tPedidos: " << ord.totalped << "\tSuma cantidades: " << ord.sumcant;
+	return os;  
+}
+
+ostream& operator << (ostream& os, const pedidos& ord){
+	os << ord.producto << "\t" << ord.cantidad; 
+	return os; 
+}
+
+int ordenar(representante a, representante b){
+	if(a.id == b.id){
+		return a.zona.compare(b.zona);
+	}else{
+		return a.id - b.id; 
+	}
+}
+
+int main(){
+	fstream archivo; 
+	archivo.open("pedidos.bin", ios::in | ios::binary); 
+	if(!archivo){
+		cout<<"ERROR: No se puede ejecutar el archivo"<<endl; 
+		return EXIT_FAILURE; 
+	}
+	registro reg; 
+	representante rep; 
+	pedidos ped; 
+	Nodo<representante>* lista = nullptr; 
+	Nodo<representante>* pnodo = nullptr;
+	Nodo<pedidos>* ppedidos = nullptr; 
+    string producto;
+	
+	while(archivo >> reg){
+		rep.id = reg.id; 
+		rep.zona = reg.zona; 
+		pnodo = insertar_unico(rep, lista, ordenar); 
+		pnodo->dato.totalped ++; 
+		pnodo->dato.sumcant += reg.cantidad;
+		
+		ped.producto = reg.producto; 
+		ped.cantidad = reg.cantidad; 
+		agregar(pnodo->dato.listaped, ped);  
+	}
+	archivo.close(); 
+
+	//punto 2
+	pnodo = lista; 
+	while(pnodo != nullptr){
+		cout<< pnodo->dato <<endl; 
+		mostrar(pnodo->dato.listaped);
+		pnodo = pnodo->sig; 
+	}
+	
+	//punto 3
+	cout << "\nIngrese el ID del representante: "; 
+	while(cin >> rep.id)
+	{
+		cout << "Ingrese la Zona: "; 
+		cin.get();
+		getline(cin, rep.zona); 
+		pnodo = buscar(rep, lista, ordenar); //(T valor, Nodo<T>&* lista, int (*criterio) (T , T))
+		if(pnodo != nullptr)
+		{
+			cout<< "Ingrese el producto: "; 
+			cin >> producto; 
+			ppedidos = pnodo->dato.listaped;
+			while(ppedidos != 0)
+			{
+				if(ppedidos->dato.producto == producto)
+				{
+					cout<<ppedidos->dato<<endl; 
+				}
+					ppedidos = ppedidos->sig;
+			} 
+		}
+		else{
+			cout<<"No hay datos del representante en esa zona"<<endl; 
+		}
+		cout << "\nIngrese el ID del representante: ";
+	}
+return 0; 
+}

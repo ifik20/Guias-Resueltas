@@ -1,0 +1,154 @@
+#include <iostream>
+#include <fstream>
+#include "listascomp.hpp"
+#include "listasordc.hpp"
+#include "rwstring.hpp"
+
+using namespace std; 
+
+//punto 1
+struct registro{
+	string producto; 
+	string canal; 
+	int unidades; 
+	float monto; 
+};
+
+struct productos{
+	string canal; 
+	int unidades; 
+}; 
+
+struct ventas{
+	string producto; 
+	int cantventas = 0;
+	float totalmonto = 0; 
+	float promedio; 
+	Nodo<productos>* listaventas = nullptr; 
+};  
+
+struct canal{
+	string canal; 
+	float monto; 
+};
+
+const int dimproducto {8};  
+const int dimcanal {8}; 
+const int maxventa {12};
+const float minprom {280.0};
+
+//punto 2
+fstream& operator >> (fstream& fs, registro& ord){
+	ord.producto = readstring (fs, dimproducto);  
+	ord.canal = readstring (fs, dimcanal); 
+	fs.read(reinterpret_cast<char*> (&ord.unidades), sizeof(ord.unidades)); 
+	fs.read(reinterpret_cast<char*> (&ord.monto), sizeof(ord.monto)); 
+	return fs; 
+}
+
+ostream& operator << (ostream& os, ventas& ord){
+	os << ord.producto << "\t" << ord.cantventas << "\t" << ord.totalmonto; 
+	return os; 
+}
+
+ostream& operator << (ostream& os, productos& ord){
+	os << ord.canal << "\t" << ord.unidades; 
+	return os; 
+}
+
+ostream& operator << (ostream& os, canal& ord){
+	os << ord.canal << "\t" << ord.monto; 
+	return os; 
+}
+
+//punto 3
+int ordenarproducto(ventas a, ventas b){
+	return a.producto.compare(b.producto); 
+}
+
+//punto 3
+void filtro_producto (Nodo<ventas>* listaprod){
+	while(listaprod != nullptr){
+		if(listaprod->dato.cantventas < maxventa)
+		{
+			cout<< listaprod->dato.producto << "\t" <<listaprod->dato.cantventas << "\t" << listaprod->dato.totalmonto<<endl;  
+		 	if(listaprod->dato.promedio > minprom)
+			{
+				cout << "\nCanal\tUnidades" << endl; 
+				mostrar(listaprod->dato.listaventas); 
+			} 
+            cout<<endl; 
+		}
+	listaprod = listaprod->sig;
+	}
+}
+
+//punto 4
+int ordenarcanal(canal a, canal b){
+	return a.canal.compare(b.canal); 
+}
+
+//punto 4
+void sig_mayor(Nodo<canal>* list){
+	int mayor {}; 
+    while(list !=nullptr){
+	if(list->sig && list->dato.canal != list->sig->dato.canal && list->dato.monto > list->sig->dato.monto){
+		mayor ++; 
+    } 
+    list = list->sig;
+    }
+    cout << "\nCantidad de veces mayor: "<< mayor <<endl;
+}
+
+int main(){
+	fstream archivo; 
+	archivo.open("Parcial2.bin", ios::in | ios::binary); 
+	if(!archivo){
+		cout<<"ERROR: No se puede abrir el archivo"<<endl; 
+		return EXIT_FAILURE;
+	}
+	
+	//punto 1
+	registro reg; 
+	productos prod; 
+	ventas vent; 
+	canal can;
+	Nodo<ventas>* lista = nullptr; 
+	Nodo<ventas>* pnodo; 
+	Nodo<canal>* listacanal = nullptr; 
+	
+	//punto 2
+	while(archivo >> reg){
+		vent.producto = reg.producto; 
+		pnodo = insertar_unico(vent, lista, ordenarproducto); //(T valor, Nodo<T>*& lista, int (*criterio)(T, T))
+		pnodo->dato.cantventas ++; 
+		pnodo->dato.totalmonto += reg.monto; 
+		
+		prod.canal = reg.canal; 
+		prod.unidades = reg.unidades; 
+		agregar(pnodo->dato.listaventas, prod); //(Nodo<T>*& cola, T valor) 
+	
+		can.canal = reg.canal; 
+		can.monto = reg.monto; 
+		insertar(can, listacanal, ordenarcanal); //(T valor, Nodo<t>*& lista, int (*criterio) (T, T)) 
+	}
+	archivo.close(); 
+	
+	pnodo = lista;
+	while(pnodo != nullptr){
+		pnodo->dato.promedio = pnodo->dato.totalmonto / pnodo->dato.cantventas; 
+		pnodo = pnodo->sig;  
+	}
+	
+	//punto 3
+	cout<<"Listado productos: "<<endl; 
+	filtro_producto(lista);
+
+	//punto 4
+	cout<<"============================ "<<endl; 
+    cout<<"Listado de Canales \n"<<endl; 
+	mostrar(listacanal); 
+	sig_mayor(listacanal); 
+
+return 0; 
+}
