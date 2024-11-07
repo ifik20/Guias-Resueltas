@@ -1,0 +1,135 @@
+#include <iostream>
+#include <fstream>
+#include "listas.hpp"
+#include "rwstring.hpp"
+
+using namespace std;
+
+struct Registro{
+    string city;
+    int cant;
+    int uniprem;    //unidades con premio
+    string tipoprem; //tipo de premio
+    string canal;
+};
+const int lcity {10};
+const int ltipo {10};
+const int lcan{15};
+const int minprom{680};
+
+fstream& operator >>(fstream& fs, Registro &reg){
+    reg.city = readstring(fs, lcity);
+    fs.read(reinterpret_cast<char*>(&reg.cant), sizeof(reg.cant));
+    fs.read(reinterpret_cast<char*>(&reg.uniprem), sizeof(reg.uniprem));
+    reg.tipoprem = readstring(fs,ltipo);
+    reg.canal = readstring(fs,lcan);
+    return fs;
+}
+
+struct Envio{
+    string canal;
+    string tipoprem;
+    int uniprem;
+};
+
+struct Ciudad{
+    string city;
+    int totuni {};
+    int cantenv {};
+    float prom;
+    Nodo<Envio> *listenv {nullptr};
+};
+
+//Sobrecarga para mostrar
+ostream& operator <<(ostream& os, Ciudad ciu){
+    os << "Ciudad: " << ciu.city << "\tUnidades enviadas: " << ciu.totuni <<
+    "\tPromedio: " << ciu.prom;
+    return os;
+}
+
+ostream& operator <<(ostream& os, Envio env){
+    os << "Canal: " << env.canal << "\tTipo de premio: " << env.tipoprem <<
+    "\tUnidades con premio: " << env.uniprem;
+    return os;
+}
+
+//Criterios de ordenamiento
+int criterio_ciudad(Ciudad a, Ciudad b){
+    return a.city.compare(b.city);
+}
+
+int criterio_envio(Envio a, Envio b){
+    if(a.canal != b.canal){
+        return a.canal.compare(b.canal);
+    }
+    else{
+        return a.tipoprem.compare(b.tipoprem);
+    }
+}
+
+void calcular_prom(Nodo<Ciudad> *&lista){
+    Nodo<Ciudad> *aux=lista;
+    while(aux){
+        aux->dato.prom = aux->dato.cantenv == 0?
+        0 : aux->dato.totuni/aux->dato.cantenv;
+
+        aux = aux->sig;
+    }
+}
+
+int main(){
+    Nodo<Ciudad> *listciu {nullptr};
+    fstream archilec;
+
+    archilec.open("Parcial2B.bin", ios::in | ios::binary);
+    if(!archilec){
+        cout << "Error al abrir el archivo" << endl;
+        return EXIT_FAILURE;
+    }
+
+    Registro reg;
+    Ciudad ciu;
+    Envio env;
+    Nodo<Ciudad> *pnodciu {nullptr};
+    while(archilec >> reg){
+        ciu.city = reg.city;
+        pnodciu = insertar_unico(ciu, listciu, criterio_ciudad);
+        pnodciu->dato.cantenv ++;
+        pnodciu->dato.totuni += reg.cant;
+
+        env.canal = reg.canal;
+        env.tipoprem = reg.tipoprem;
+        env.uniprem = reg.uniprem;
+        insertar(env, pnodciu->dato.listenv, criterio_envio);
+    }
+    archilec.close();
+
+    //Punto 2
+    calcular_prom(listciu);
+    cout << "Listado de ciudades" << endl;
+    mostrar(listciu);
+    cout << endl;
+
+    //Punto 3
+    cout << "Ingrese un nombre de ciudad: ";
+    while(cin >> ciu.city){
+        cout << endl;
+        pnodciu = buscar(ciu, listciu, criterio_ciudad);
+        if(pnodciu){
+            if(pnodciu->dato.prom > minprom){
+            cout << "Listado de envios: " << endl;
+            mostrar(pnodciu->dato.listenv);
+            cout << endl;
+            }
+            else{
+                cout << "La ciudad tiene un promedio por envio menor a 680" << endl;
+            }
+        }
+        else{
+            cout << "La ciudad no existe" << endl;
+        }
+        cout << "Ingrese un nombre de ciudad: ";
+    }
+
+    return 0;
+}
